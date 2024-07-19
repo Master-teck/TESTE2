@@ -93,3 +93,38 @@ div p {
 {
     font-variant: small-caps;
 }
+
+/* Box model */
+body {
+    margin: 0;
+}
+
+.boxmodel {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    /* geral */
+   /* padding: 20px; */
+  /* padding: 20px; */
+
+   /* especifico */
+   /*
+   padding-top: 30px;
+   padding-left: 10px;
+   padding-right: 20px;
+   padding-bottom: 5px; */
+
+   /*especifico agrupado */
+   /*
+   padding: 30px 20px 5px 10px;
+   /* especifico agrupado 3 medidas - top, right-left, bottom */
+   /*
+   padding: 30px 20px 5px; */
+   /* especifico agrupado 2 medidas - top-botthom, rigth - left */
+   padding: 30px 20px;
+}
+
+.paragrafo-box {
+    color: #000;
+    margin: 0;
+}
