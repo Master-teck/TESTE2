@@ -52,6 +52,9 @@ div p {
     background-image: url('img/sol.jpg');
     height: 300px;
 }
-h1 {
+
+.titulo-background {
     text-align: center;
+    background-color: #000;
+    color: #FFF;
 }
