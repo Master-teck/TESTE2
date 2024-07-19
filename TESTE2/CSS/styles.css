@@ -1,0 +1,49 @@
+h1 {
+    color: red;
+}
+p {
+    color: green;
+}
+h2 {
+    color: green;
+    text-align: center;
+    font-size: 50px;
+}
+
+/* Este è um comentàrio */
+
+/*
+     Este
+     è
+     um
+     comentàrio
+*/
+/* Classe e ides */
+.p-texto {
+    color: lightgreen;
+}
+#titulo-app {
+    color: purple;
+    font-size: 40px;
+}
+/* Especifidade */
+div p {
+    color: red;
+}
+.p-dentro-da-div{
+    color: blue;
+}
+#p-super-especifico {
+    color: green;
+}
+/* Cores */
+.nome {
+    color: orange;
+}
+.hexa {
+    color: #6a40c4;
+}
+.rgba {
+    color: rgb(4, 22, 23);
+    font-size: 40px;
+}
