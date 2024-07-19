@@ -49,6 +49,7 @@ div p {
 /* Backgrounds */
 
 .div-background {
+    background-image: url('img/sol.jpg');
     height: 300px;
 }
 h1 {
