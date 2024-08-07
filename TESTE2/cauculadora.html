@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="cauculadora.css">
+</head>
+<body>
+    <div class="calculadora">
+        <input type="text" id="display" disabled>
+        <div class="botoes">
+            <button class="botao" onclick="limpar()">C</button>
+            <button class="botao" onclick="backspace()">DEL</button>
+            <button class="botao" onclick="calcular('%')">%</button>
+            <button class="botao" onclick="calcular('/')">/</button>
+            <button class="botao" onclick="calcular('9')">9</button>
+            <button class="botao" onclick="calcular('8')">8</button>
+            <button class="botao" onclick="calcular('7')">7</button>
+            <button class="botao" onclick="calcular('-')">-</button>
+            <button class="botao" onclick="calcular('6')">6</button>
+            <button class="botao" onclick="calcular('5')">5</button>
+            <button class="botao" onclick="calcular('4')">4</button>
+            <button class="botao" onclick="calcular('+')">+</button>
+            <button class="botao" onclick="calcular('3')">3</button>
+            <button class="botao" onclick="calcular('2')">2</button>
+            <button class="botao" onclick="calcular('1')">1</button>
+            <button class="botao" onclick="calcular('*')">*</button>
+            <button class="botao" onclick="calcular('0')">0</button>
+            <button class="botao" onclick="calcular('.')">.</button>
+            <button class="botao" onclick="calcular('=')">=</button>
+        </div>
+    </div>
+
+    <script src="calculadora.js"></script>
+</body>
+</html>
